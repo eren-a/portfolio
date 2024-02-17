@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background: lightcoral;
+    /*margin: auto;*/
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    /*margin: auto;*/
+}
+
+.div-wrapper {
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
