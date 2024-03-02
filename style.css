@@ -3,23 +3,39 @@ body {
 }
 
 .text {
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: top;
     background: lightcoral;
-    /*margin: auto;*/
+    text-align: center;
 }
 
-.image {
+.text p {
+    margin: auto;
+    padding: 10%;
+}
+
+.media {
     display: flex;
     justify-content: center;
     align-items: center;
     background: lightblue;
-    /*margin: auto;*/
+}
+
+img {
+    width: 80%;
+    height: auto;
 }
 
 .div-wrapper {
-    background: green;
+    max-width: 1130px;
+    min-height: 660px;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
 }
