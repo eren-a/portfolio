@@ -82,6 +82,14 @@
 
 .down-arrow img{
     width: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+    transition: 0.3s;
+}
+
+.down-arrow img:hover {
+    background-color: #dddddd;
 }
 
 .projects {
