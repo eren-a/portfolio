@@ -9,7 +9,9 @@
     scrollbar-width: thin;
 }
 
-
+body {
+    margin: 0;
+}
 @media screen and (max-width: 1000px) {
     * {
         font-size: 22px;
@@ -51,6 +53,11 @@
 
 .header-left p {
     font-size: 1.1rem;
+}
+
+.header-left-text p{
+    font-size: 0.75rem;
+    color: #5c5c5c;
 }
 
 .header-right {
@@ -99,7 +106,7 @@
 }
 
 .projects h2{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .div-wrapper {
@@ -134,7 +141,7 @@
 }
 
 .text h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .text p {
@@ -169,6 +176,7 @@
 }
 
 .links a {
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
