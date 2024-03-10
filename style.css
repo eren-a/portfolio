@@ -225,6 +225,17 @@ body {
     width: 100%;
 }
 
+.contact a {
+    text-decoration: none;
+    border-radius: 0.5rem;
+
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    background-color: #dddddd;
+}
+
 .email {
     margin: 0.5rem;
 }
@@ -232,4 +243,7 @@ body {
 .email p{
     margin: 0;
     font-size: 0.75rem;
+
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
